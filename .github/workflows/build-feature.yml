@@ -1,8 +1,8 @@
 name: build feature branches
 
 on:
-  branches: [master]
-  pull_request:
+  push:
+    branches: [master]
 
 jobs:
   build:
